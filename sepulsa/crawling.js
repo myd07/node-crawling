@@ -6,7 +6,7 @@ var auth = require("../auth.js")
 
 var arr = [['operator', 'product_type', 'product_name', 'price']]
 var sheet = 'sepulsa'
-var pulsa = [['Telkomsel','pulsa'], ['Indosat', 'pulsa'], ['Three', 'pulsa'], ['XL', 'pulsa'], ['Bolt', 'pulsa'], ['Smart', 'pulsa'], ['Axis', 'pulsa']]
+var pulsa = [['Telkomsel','pulsa'], ['Indosat', 'pulsa'], ['Three', 'pulsa'], ['XL', 'pulsa'], ['Bolt', 'pulsa'], ['Smartfren', 'pulsa'], ['Axis', 'pulsa']]
 var paket = [['Telkomsel','data'], ['Indosat', 'data'], ['Three', 'data'], ['XL', 'data'], ['Axis', 'data']]
 var listrik = [['PLN', 'electricity']]
 
