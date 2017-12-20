@@ -1,7 +1,7 @@
 var Nightmare = require('nightmare')
 // Setting the Nightmarejs, using Object
 var nightmare = Nightmare({
-  show: false,
+  show: false, // turn it to true if you want to debug it by showing the visual flow
   webPreferences: {
     images: false
   },

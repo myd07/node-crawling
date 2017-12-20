@@ -18,3 +18,6 @@ Set this function on each file controler.
 Run the server as background
 a. the easiest way is to use nodejs package called PM2 (https://github.com/unitech/pm2 support mac, linux, and windows)
 b. second way is to use systemd on linux
+
+All reference
+Nightmarejs: https://github.com/segmentio/nightmare

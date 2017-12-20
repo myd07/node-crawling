@@ -25,6 +25,6 @@ function appendData(auth, payload, sheet) {
     }
   });
 }
-console.log('lal')
+// console.log('lal')
 
 module.exports = appendData
