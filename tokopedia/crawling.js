@@ -10,6 +10,8 @@ var paket = [['Telkomsel','data'], ['Indosat', 'data'], ['Three', 'data'], ['XL'
 
 // you can use setInterval() to loop the process per 24 hours = 86400000 ms
 
+// made a change here
+
 function tokopedia() {
 	pulsaCrawling()
 	.then(x => {
