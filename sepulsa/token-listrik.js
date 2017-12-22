@@ -13,8 +13,10 @@ function crawling() {
   var lol = []
   return new Promise((resolve, reject) => {
     nightmare
-    .viewport(1200, 1000)
-    .goto('https://m.sepulsa.com/pln_prepaid')
+    .viewport(400, 1000)
+    .goto('https://m.sepulsa.com')
+    .wait('a.product-pln')
+    .click('a.product-pln')
     .wait('input[name="plnprepaid_meter_number"]')
     .wait(2000)
     .type('input[name="plnprepaid_meter_number"]', '86028284064')

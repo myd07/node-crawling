@@ -3,10 +3,10 @@ var paketCrawling = require("./paket-data.js")
 var payloadSender = require("../sheetSender.js")
 var auth = require("../auth.js")
 
-var arr = [['operator', 'product_type', 'product_name', 'price']]
+var arr = []
 var sheet = 'tokopedia'
-var pulsa = [['Telkomsel','pulsa'], ['Indosat', 'pulsa'], ['Three', 'pulsa'], ['XL', 'pulsa'], ['Bolt', 'pulsa'], ['Smartfren', 'pulsa'], ['Axis', 'pulsa']]
-var paket = [['Telkomsel','data'], ['Indosat', 'data'], ['Three', 'data'], ['XL', 'data'], ['Axis', 'data']]
+var pulsa = [['Telkomsel','Pulsa'], ['Indosat', 'Pulsa'], ['Tri', 'Pulsa'], ['XL', 'Pulsa'], ['Bolt', 'Pulsa'], ['Smartfren', 'Pulsa'], ['Axis', 'Pulsa']]
+var paket = [['Telkomsel','Paket Data'], ['Indosat', 'Paket Data'], ['Tri', 'Paket Data'], ['XL', 'Paket Data'], ['Axis', 'Paket Data']]
 
 // you can use setInterval() to loop the process per 24 hours = 86400000 ms
 
@@ -52,12 +52,12 @@ function tokopedia() {
 		})
 		.catch(y => {
 			console.log(y)
-			tokopedia()
+			// tokopedia()
 		})
 	})
 	.catch(y => {
 		console.log(y)
-		tokopedia()
+		// tokopedia()
 	})
 }
 

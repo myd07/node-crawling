@@ -13,8 +13,10 @@ function crawling() {
   var lol = []
   return new Promise((resolve, reject) => {
     nightmare
-    .viewport(1200, 1000)
-    .goto('https://m.sepulsa.com/paketdata')
+    .viewport(400, 1000)
+    .goto('https://m.sepulsa.com')
+    .wait('a.product-paketdata')
+    .click('a.product-paketdata')
     .wait('input[name="paketdata_phone_number"]')
     .wait(2000)
     .type('input[name="paketdata_phone_number"]', '0813')//telkomsel

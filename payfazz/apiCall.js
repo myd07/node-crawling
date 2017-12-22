@@ -17,7 +17,7 @@ var sheet = 'payfazz'
 axios.get(api)
 .then(x => {
     var type = x.data
-    var result = [['operator', 'product_type', 'product_name', 'price']]
+    var result = []
     for(var a in type) {
         var obj = type[a]
         obj.map(b => {
